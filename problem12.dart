@@ -1,3 +1,4 @@
+import 'dart:io';
 void main() {
   /*
    Solve on this problem?
@@ -19,4 +20,6 @@ void main() {
     }
   }
   print(z.toList());
+  // One line using set intersections
+  stdout.write(Set.from(a).intersection(Set.from(b)).toList());
 }
